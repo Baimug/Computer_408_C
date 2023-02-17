@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\integer_conversion.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\integer_conversion.dir/objects.a @CMakeFiles\integer_conversion.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\integer_conversion.dir/objects.a -Wl,--no-whole-archive -o integer_conversion.exe -Wl,--out-implib,libinteger_conversion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\integer_conversion.dir\linklibs.rsp
