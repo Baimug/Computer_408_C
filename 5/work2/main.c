@@ -7,7 +7,7 @@ int main() {
     char temp;
     gets(c);
     int i=0;
-    char c2[100];
+    char c2[100]={0};
     while(c[i])
     {
         for(int j=i;j>0;j--)
