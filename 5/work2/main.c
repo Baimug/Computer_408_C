@@ -4,10 +4,9 @@
 // 例如输入 hello，逆转后的字符串为 olleh，因为hello 小于 olleh，所以输出-1
 int main() {
     char c[100];
-    char temp;
     gets(c);
     int i=0;
-    char c2[100];
+    char c2[100]={0};
     while(c[i])
     {
         for(int j=i;j>0;j--)
