@@ -1,0 +1,3 @@
+C:/Users/LIUWEI/CLionProjects/6/heap_stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LIUWEI/CLionProjects/6/heap_stack/cmake-build-debug/CMakeFiles/heap_stack.dir
+C:/Users/LIUWEI/CLionProjects/6/heap_stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
