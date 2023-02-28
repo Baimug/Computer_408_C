@@ -111,10 +111,22 @@ bool ListFrontInsert(LinkList &L,int i,ElemType InsertVal)
     L_pre->next=L_new;
     return true;
 }
+bool ListDelete(LinkList L,int i)
+{
+    LinkList p=GetElem(L,i-1);//拿到要删除节点的前一节点
+    if(NULL==p)
+    {
+        return false;
+    }
+    LinkList q=p->next;//拿到要删除的节点
+    p->next=q->next;//断链
+    free(q);//释放被删除节点的空间
+    return true;
+}
 int main() {
     LinkList L1,L2,search;//链表头指针，是结构体指针类型
-    list_head_insert(L1);
-    PrintList(L1);
+//    list_head_insert(L1);
+//    PrintList(L1);
     list_tail_insert(L2);
     PrintList(L2);
     //按位置查找
@@ -141,5 +153,7 @@ int main() {
 //    }
 //    ListFrontInsert(L2,2,99);
 //    print_list(L2);
+    ListDelete(L2,3);
+    PrintList(L2);
     return 0;
 }
